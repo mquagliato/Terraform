@@ -1,0 +1,18 @@
+AWS Custom VPC Creation Steps:
+
+select the region
+create the VPC
+Enable DNS host name in the VPC
+Create the internet Gateway
+Attach Internet gateway to VPC
+Create Public Subnets
+Enable Auto Assign Public IP Settings
+Create Public Route Table
+Add Public Route to the Public Route table
+associate the public subnets with the public route table
+create the private subnets
+create the NAT gateway in public subnet
+create and EIP and associate it to the NAT gateways
+Create Private route table
+Add public route to the private route table
+associate the privaye subnets with the private route table
